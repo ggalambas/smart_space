@@ -1,6 +1,6 @@
 name: smart_space
 description: Ensures a consistent visual rhythm across each screen.
-version: 0.1.1
+version: 0.1.0
 repository: https://github.com/ggalambas/smart_space
 
 environment:
