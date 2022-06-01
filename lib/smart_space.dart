@@ -1,3 +1,4 @@
+/// smart_space package
 library smart_space;
 
 import 'package:flutter/widgets.dart';
