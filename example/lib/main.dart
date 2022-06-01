@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smart_space/smart_space.dart';
 
 void main() {
-  // define the spacing base
+  // Define the spacing base
   kSpace = 24; // default: 8.0
   runApp(const MyApp());
 }
@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
 class Example extends StatelessWidget {
   const Example({super.key});
 
+  // Use kSpace as a constant for sizes
   Widget get square => Container(
         height: kSpace,
         width: kSpace,
@@ -35,13 +36,15 @@ class Example extends StatelessWidget {
       backgroundColor: Colors.red,
       body: SafeArea(
         child: Container(
+          // Use kSpace as a constant for spacings
           margin: EdgeInsets.all(kSpace * 2),
           padding: EdgeInsets.all(kSpace),
           color: Colors.white,
+          // Use Space on Flex and ScrollView children
           child: Column(
             children: [
               Row(children: [square, Space(), square]),
-              Space(2),
+              Space(2), // creates a space of kSpace * 2
               Expanded(
                 child: ListView.separated(
                   itemCount: 2,
