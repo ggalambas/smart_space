@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:smart_space/space.dart';
+import 'package:smart_space/smart_space.dart';
 
 void main() {
   // define the spacing base
