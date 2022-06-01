@@ -35,7 +35,7 @@ Use Space on Flex and ScrollView children
 
 
 ```dart
-Space(multiplier), // creates a space of kSpace * multiplier
+Space(multiplier) // creates a space of kSpace * multiplier
 ```
 
 ## Examples
