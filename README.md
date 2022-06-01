@@ -23,11 +23,11 @@ Use kSpace as a constant for spacings
 
 ```dart
 Padding(
-	padding: EdgeInsets.symmetric(
-		horizontal: kSpace * 2,
-		vertical: kSpace,
-	),
-	child: ...
+  padding: EdgeInsets.symmetric(
+    horizontal: kSpace * 2,
+    vertical: kSpace,
+  ),
+  child: ...
 )
 ```
 
@@ -42,39 +42,39 @@ Space(multiplier) // creates a space of kSpace * multiplier
 
 ```dart
 Column(
-	children: [
-		...
-		Space(),
-		...
-	],
+  children: [
+    ...
+    Space(),
+    ...
+  ],
 )
 ```
 
 ```dart
 Row(
-	children: [
-		...
-		Space(),
-		...
-	],
+  children: [
+    ...
+    Space(),
+    ...
+  ],
 )
 ```
 
 ```dart
 ListView(
-	children: [
-		...
-		Space(),
-		...
-	],
+  children: [
+    ...
+    Space(),
+    ...
+  ],
 )
 ```
 
 ```dart
 ListView.separated(
-	itemCount: ...
-	separatorBuilder: (_, __) => Space(),
-	itemBuilder: ...
+  itemCount: ...
+  separatorBuilder: (_, __) => Space(),
+  itemBuilder: ...
 )
 ```
 
