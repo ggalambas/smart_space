@@ -3,8 +3,12 @@ library smart_space;
 
 import 'package:flutter/widgets.dart';
 
+part 'sliver_space.dart';
+
 /// The measurement used for spacing increments.
-/// {@macro measurements}
+/// {@template measurements}
+/// Space follows the [Material measurements](https://material.io/design/layout/understanding-layout.html#material-measurements).
+/// {@endtemplate}
 var kSpace = 8.0;
 
 class Space extends StatelessWidget {
@@ -22,9 +26,7 @@ class Space extends StatelessWidget {
   /// ```
   /// {@endtemplate}
   ///
-  /// {@template measurements}
-  /// Space follows the [Material measurements](https://material.io/design/layout/understanding-layout.html#material-measurements).
-  /// {@endtemplate}
+  /// {@macro measurements}
   factory Space([double multiplier = 1]) => Space._(multiplier);
 
   /// Returns a SizedBox with spacing applied to the height.

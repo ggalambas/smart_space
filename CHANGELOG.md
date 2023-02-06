@@ -1,3 +1,6 @@
+## 0.2.0
+* Added support for slivers
+
 ## 0.1.2
 * Provided documentation
 
