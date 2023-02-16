@@ -1,3 +1,6 @@
+## 0.2.1
+* Updated package description
+
 ## 0.2.0
 * Added support for slivers
 
